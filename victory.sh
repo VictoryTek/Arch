@@ -177,6 +177,7 @@ function install() {
 	'breeze'
 	'bpytop'
 	'cachyos-hello'
+	'cachyos-kernel-manager'
 	'celluloid' # video players
 	'cifs-utils'
 	'dconf-editor'
