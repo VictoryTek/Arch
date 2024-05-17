@@ -2,11 +2,11 @@
 
 ```
 git clone https://github.com/VictoryLinux/Arch
-
-cd VictoryNobara
-
+```
+cd Arch
+```
 ./victory.sh
-
+```
 Restart PC or Restart Gnome Shell
 
 ```
