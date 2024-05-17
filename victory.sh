@@ -143,11 +143,7 @@ function debloat() {
 	'simple-scan'
 	'gnome-weather'
 	'gnome-boxes'
-	'totem'
-	'rhythmbox'
-	'gameconqueror'
-	'inkscape'
-	'scummvm'    
+	'totem'   
 
 	)
 
@@ -283,7 +279,7 @@ function configs() {
 	sleep 6s
    	echo
     export PATH=$PATH:~/.local/bin
-    cp -r $HOME/CachyOS/configs/* $HOME/.config/
+    cp -r $HOME/Arch/configs/* $HOME/.config/
     echo
 	# enable pre configured bashrc file
     mv $HOME/.config/bashrc $HOME/.config/.bashrc
@@ -294,7 +290,7 @@ function configs() {
     mv $HOME/.config/.face $HOME
 	echo
 
-	cd $HOME/CachyOS/
+	cd $HOME/Arch/
 	git clone https://github.com/daniruiz/flat-remix
 	git clone https://github.com/daniruiz/flat-remix-gtk
 	#mkdir -p ~/.icons && mkdir -p ~/.themes
@@ -340,7 +336,7 @@ function restart() {
             then
             	cecho
 		echo "---------------------------------------"
-		echo "----   CachyOS install & config    ----"
+		echo "----     Arch install & config     ----"
 		echo "----        has completed!         ----"
 		echo "---------------------------------------"
 		echo
