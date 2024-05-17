@@ -1,7 +1,7 @@
 # Arch
 
 ```
-git clone https://github.com/VictoryLinux/Arch
+git clone https://github.com/Victorytek/Arch
 ```
 ```
 cd Arch
