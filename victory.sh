@@ -178,6 +178,7 @@ function install() {
 	'cifs-utils'
 	'dconf-editor'
 	'discord'
+	'fastfetch'
 	'filelight'
 	'flatpak'
 	'ttf-fira-code'
@@ -186,6 +187,7 @@ function install() {
 	'gnome-browser-connector'
 	'gparted' # partition management
 	'gwenview'
+	'inxi'
 	'kmail'
 	'kmag'
 	'linux-cachyos-eevdf'
@@ -236,6 +238,7 @@ done
 	'pamac-aur'
 	'pamac-cli'
 	'realvnc-vnc-viewer'
+	'update-grub'
 
 )
 
