@@ -310,8 +310,6 @@ function configs() {
 	gsettings set org.gnome.desktop.interface cursor-theme 'Bibata-Modern-Classic'
 	gsettings set org.gnome.desktop.screensaver lock-enabled false
 	echo
-	sudo tailscale set --operator=$USER
-	echo
 	    
 	check_exit_status
 }
