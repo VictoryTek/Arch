@@ -363,7 +363,7 @@ greeting
 update
 debloat
 install
-backgrounds
+#backgrounds
 configs
 clean-up
 restart
